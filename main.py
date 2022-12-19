@@ -11,9 +11,9 @@ while (True):
     }
 
     r = requests.post(
-        "https://discord.com/api/v9/channels/1054044541201686538/messages",
+        "https://discord.com/api/v9/channels/CHANNEL_ID/messages",
         json=payload,
         headers=header)
-    print("wyslalem")
+    print("sent")
     time.sleep(t)
-    #1054044541201686538
+ 
